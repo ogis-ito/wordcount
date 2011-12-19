@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- mapred-site.xml -->
+<configuration>
+  <property>
+    <name>mapred.job.tracker</name>
+    <value>localhost:9001</value>
+  </property>
+  <property>
+    <name>mapred.child.tmp</name>
+    <value>../work2/tmp</value>
+  </property>
+</configuration>
